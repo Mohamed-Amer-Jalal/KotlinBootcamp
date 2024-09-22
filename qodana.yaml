@@ -1,0 +1,2 @@
+#-------------------------------------------------------------------------------#
+{ version: "1.0", profile: { name: qodana.starter }, projectJDK: 22, linter: jetbrains/qodana-jvm-community:latest }

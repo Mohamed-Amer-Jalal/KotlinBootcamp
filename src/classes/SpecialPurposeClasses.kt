@@ -13,9 +13,9 @@ enum class Color(val rgb: Int) {
 
 sealed class Seal
 
-class SeaLion: Seal()
+data object SeaLion : Seal()
 
-class Walrus: Seal()
+data object Walrus : Seal()
 
 fun matchSeal(seal: Seal): String {
     return when(seal){
