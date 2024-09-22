@@ -6,7 +6,7 @@ fun main() {
 }
 
 class Fish(val friendly: Boolean = true, volumeNeeded: Int) {
-    val size: Int
+    var size: Int = if (friendly) {  volumeNeeded } else { volumeNeeded *2 }
 
     init { println("first init block") }
 
